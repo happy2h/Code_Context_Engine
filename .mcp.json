@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "context-engine": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["/path/to/context-engine/server.py"],
+      "env": {
+        "CE_REPO_ROOT": "${workspaceFolder}",
+        "CE_DB_PATH": "${workspaceFolder}/.ce/index.db",
+        "CE_LOG_LEVEL": "WARNING"
+      }
+    }
+  }
+}

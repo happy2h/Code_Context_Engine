@@ -1,0 +1,28 @@
+# 核心解析
+tree-sitter>=0.23.0
+tree-sitter-python>=0.23.0
+tree-sitter-typescript>=0.23.0
+tree-sitter-javascript>=0.23.0
+tree-sitter-go>=0.23.0
+tree-sitter-rust>=0.23.0
+tree-sitter-java>=0.23.0
+
+# MCP Server
+fastmcp>=2.0.0
+
+# 文件系统监听
+watchdog>=4.0.0
+
+# .gitignore 过滤
+pathspec>=0.12.0
+
+# CLI
+click>=8.1.0
+
+# 配置文件支持
+python-dotenv>=1.0.0
+
+# 开发 / 测试
+pytest>=8.0.0
+pytest-cov>=4.0.0
+pytest-benchmark>=4.0.0
