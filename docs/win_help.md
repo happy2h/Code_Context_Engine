@@ -66,7 +66,7 @@ poetry config virtualenvs.prefer-active-python true
 
 ```powershell
 # 使用 Git 克隆（推荐）
-git clone https://github.com/your-org/context-engine.git
+git clone https://github.com/happy2h/Code_Context_Engine.git
 cd context-engine
 
 # 或直接下载 ZIP 解压后进入目录
